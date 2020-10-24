@@ -22,11 +22,11 @@
 
 - (METODO) /url (PARAMETROS)
 
-- (GET) /notes - Listar as anotações
-- (GET) /note/id - Pegar uma anotação
-- (POST) /note (TITLE, BODY) - Criar uma anotação
-- (PUT) /note/id (TITLE, BODY) - Atualizar uma anotação
-- (DELETE) /note/id - Deletar uma anotação
+- (GET) / - Listar as anotações
+- (GET) /id - Pegar uma anotação
+- (POST) / (TITLE, BODY) - Criar uma anotação
+- (PUT) /id (TITLE, BODY) - Atualizar uma anotação
+- (DELETE) /id - Deletar uma anotação
 
 ## Instalação
 Você pode clonar este repositório OU baixar o .zip
