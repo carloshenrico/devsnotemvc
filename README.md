@@ -14,9 +14,9 @@
 ## Qual a estrutura de dados?
 
 - note
--- id
--- title
--- body
+- -- id
+- -- title
+- -- body
 
 ## Quais os endpoints?
 
