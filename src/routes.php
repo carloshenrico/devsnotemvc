@@ -3,13 +3,13 @@ use core\Router;
 
 $router = new Router();
 
-$router->get('/', 'HomeController@getList'); // Listar as anotações
+$router->get('/note', 'HomeController@getList'); // Listar as anotações
 
-$router->get('/{id}', 'HomeController@get'); // Ler uma anotação
+$router->get('/note/{id}', 'HomeController@get'); // Ler uma anotação
 
-$router->post('/', 'HomeController@add'); // Adicionar uma anotação
+$router->post('/note', 'HomeController@add'); // Adicionar uma anotação
 
-$router->put('/a/{id}', 'HomeController@update'); // Editar uma anotação
+$router->put('/note/{id}', 'HomeController@update'); // Editar uma anotação
 
-$router->delete('/{id}', 'HomeController@delete');
+$router->delete('/note/{id}', 'HomeController@delete');
 

@@ -60,13 +60,13 @@ class HomeController extends Controller {
         $body = filter_input(INPUT_POST, 'body');
 
         if(is_numeric($id['id'])){
-            NoteHandlers::updateId($id, $title, $body);
         }else{
             $array['error'] = 'Apenas número';
             echo json_encode($array, JSON_UNESCAPED_UNICODE);
         }
     }
     public function delete($id){
+        header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS");
         print_r($id);
     }
 
